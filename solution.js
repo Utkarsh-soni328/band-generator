@@ -16,7 +16,7 @@ app.post("/submit", (req, res) => {
   const randomNoun = noun[Math.floor(Math.random() * noun.length)];
   res.render("solution.ejs", {
     adjective: randomAdj,
-    noun: randomNoun,
+    noun: randomNo,
   });
 });
 
